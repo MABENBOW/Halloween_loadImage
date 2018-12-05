@@ -9,7 +9,7 @@ void setup() {
 
 void mouseDragged()
 {
-  blendMode(OVERLAY); 
+  blendColor(OVERLAY); 
   noStroke();
   fill(255, 200, 25);
   ellipse(mouseX, mouseY, 5, 5);
