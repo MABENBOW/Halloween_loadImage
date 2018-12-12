@@ -1,9 +1,9 @@
-/* @pjs preload="pumpkins-1.png"; */
+/* @pjs preload="really.jpg"; */
 PImage img;
 
 void setup() {
 size(800, 500);
-img = loadImage("pumpkins-1.png");
+img = loadImage("really.jpg");
 image(img, 0, 0);
 }
 
